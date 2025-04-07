@@ -72,7 +72,8 @@ function buildBarChart(sample)
     }
 
     let layout = {
-      title: "Top 10 Belly Button Bacteria"
+      title: "Top 10 Belly Button Bacteria",
+      xaxis: {title: "Number of Bacteria"}
     };
     
     Plotly.newPlot("bar", [barChart], layout);
